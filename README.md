@@ -38,3 +38,29 @@ This ends the game and prints “GAME OVER”.
 -Move obstacle
 -Check collision
 -Delay with Sleep(120)
+
+Objective 2 – Modifications I Added
+For this part, I added two simple features to improve the original game:
+1. Score System
+I added a score variable that goes up every time the obstacle reaches the bottom without hitting the player. The score is shown at the top while playing and helps track how long the player survives.
+2. Player Lives
+Instead of ending the game instantly, I added a lives variable (set to 3).
+Now, if the player gets hit, only one life is lost and the game continues. The game only ends when all lives are gone. This makes it a bit more forgiving and playable.
+Summary
+-Both features were added inside the main loop.
+-Score increases after each successful dodge, and lives decrease only on collision.
+-These two changes make the game feel more complete and slightly more challenging.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
