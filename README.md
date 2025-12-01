@@ -36,7 +36,5 @@ This ends the game and prints “GAME OVER”.
 -Read input
 -Draw screen
 -Move obstacle
-
-Check collision
-
-Delay with Sleep(120)
+-Check collision
+-Delay with Sleep(120)
